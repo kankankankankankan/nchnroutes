@@ -1,3 +1,7 @@
+Star 后开始运行action，每周日0点自动更新一次（UTC时间）
+
+需要修改 [Makefile](https://github.com/BaeKey/nchnroutes/blob/main/Makefile) 里面的 `python3 produce.py` 后面的参数
+
 # nchnroutes
 
 Similar to chnroutes, but instead generates routes that are not originating from Mainland
