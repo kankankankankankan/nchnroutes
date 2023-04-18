@@ -5,6 +5,7 @@ on:
     - cron: "0 0 * * 0" # Run every Sunday at midnight UTC
   watch:
     types: [started]
+  workflow_dispatch:
 
 jobs:
   build:
