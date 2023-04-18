@@ -17,7 +17,7 @@ jobs:
 
     - name: Build nchnroutes
       run: |
-        mkdir routes/eth0 -p
+        mkdir nchnroutes/eth0 -p
         make
         mv routes4.conf ../nchnroutes/eth0
         mv routes6.conf ../nchnroutes/eth0
