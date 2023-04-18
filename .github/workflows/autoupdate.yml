@@ -19,8 +19,8 @@ jobs:
       run: |
         mkdir routes/eth0 -p
         make
-        mv routes4.conf ../routes/eth0
-        mv routes6.conf ../routes/eth0
+        mv routes4.conf ../nchnroutes/eth0
+        mv routes6.conf ../nchnroutes/eth0
 
     - name: upload to release
       uses: softprops/action-gh-release@v1
